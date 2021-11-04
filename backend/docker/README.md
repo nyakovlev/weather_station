@@ -4,10 +4,10 @@ Instructions for that are available here: [https://docs.docker.com/engine/instal
 
 ### Building docker image
 ```
-./build.sh
+sudo ./build.sh
 ```
 
 ### Running docker image
 ```
-./run.sh
+sudo ./run.sh --station-address="<IP OF YOUR WEATHER STATION>"
 ```

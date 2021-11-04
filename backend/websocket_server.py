@@ -4,7 +4,8 @@ import asyncio
 
 
 class WebsocketServer:
-    def __init__(self) -> None:
+    def __init__(self, port) -> None:
+        self.port = port
         self.clients = []
 
     def propagate(self, data):
@@ -21,5 +22,8 @@ class WebsocketServer:
         if client in self.clients:
             self.clients.remove(client)
     
-    def run_server():
+    def start(self):
+        pass
+    
+    def run_server(self):
         pass

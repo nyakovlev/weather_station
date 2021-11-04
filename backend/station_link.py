@@ -8,6 +8,10 @@ from select import select
 TIMEOUT=5
 
 
+def log_info(message):
+    print(message)
+
+
 def log_error(exc_type, exc_val, exc_tb):
     exc_msg = "\n".join(traceback.format_exception(exc_type, exc_val, exc_tb))
     print(f"\u001b[31m{exc_msg}\u001b[0m")
@@ -21,7 +25,9 @@ def run(address, port, on_update):
     while True:
         try:
             with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as sock:
+                log_info(f"Connecting to weather station at {address}:{port}...")
                 sock.connect((address, port))
+                log_info("Connected to weather station")
                 sock.setblocking(0)
                 while True:
                     ready = select([sock], [], [], TIMEOUT)
@@ -50,11 +56,12 @@ def run(address, port, on_update):
             return
         except:
             log_error(*sys.exc_info())
+        log_info("Lost connection to weather station!")
 
 
 def test_program():
     def update(d):
-        print("UPDATE:", d)
+        log_info("UPDATE:", d)
 
     run(
         "192.168.0.31",

@@ -1,5 +1,11 @@
-export VERSION=`cat ./VERSION`
+START_DIR=$(dirname $0)
+cd $START_DIR
 
-# TODO: build dist/ for UI and copy it to local directory
+VERSION=`cat ../VERSION`
 
-docker build . -t weather_station:$VERSION
+cd ../../ui
+npm run build
+cp -R ./build ../backend
+cd ../backend
+
+docker build . --file docker/Dockerfile -t weather_station:$VERSION
