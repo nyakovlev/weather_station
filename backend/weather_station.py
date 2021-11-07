@@ -46,7 +46,7 @@ def main():
 
     args=parser.parse_args()
     
-    print("Starting ")
+    print("Starting websocket server...")
     wss = WebsocketServer(args.ws_port)
     wss.start()
 

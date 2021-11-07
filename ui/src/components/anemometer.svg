@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458334"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="anemometer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     width="100px"
+     inkscape:zoom="7.75"
+     inkscape:cx="46.129032"
+     inkscape:cy="50"
+     inkscape:window-width="1616"
+     inkscape:window-height="984"
+     inkscape:window-x="424"
+     inkscape:window-y="127"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect65"
+       style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.301809"
+       d="M 0.15281808,13.862663 H 0.43104783 5.9688611 l 6.8803569,1e-6 3.301065,5.717843 a 3.0471363,3.0471363 0 0 0 -1.115399,4.162038 3.0471363,3.0471363 0 0 0 4.162536,1.115399 l 1.099527,-0.634819 -0.138866,-0.241034 -2.768908,-4.795868 -3.440427,-5.95838 3.301064,-5.7178441 A 3.0471363,3.0471363 0 0 0 21.412346,6.3950964 3.0471363,3.0471363 0 0 0 20.296947,2.2325604 L 19.19742,1.5977409 19.058057,1.8387736 16.289646,6.6346406 12.849218,12.593023 H 6.247091 A 3.0471363,3.0471363 0 0 0 3.1999543,9.5458858 3.0471363,3.0471363 0 0 0 0.15281808,12.593023 Z" />
+  </g>
+</svg>
